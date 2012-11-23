@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "gw_command/version"
 
@@ -7,9 +6,10 @@ Gem::Specification.new do |s|
   s.version     = GwCommand::VERSION
   s.authors     = ["Greg Whiteley"]
   s.email       = ["whitty@users.sourceforge.net"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/whitty/gw_command"
   s.summary     = %q{gw_command eases creation of tools with sub-commands}
   s.description = %q{gw_command eases creation of tools with sub-commands}
+  s.license     = "LGPL"
 
   s.rubyforge_project = "gw_command"
 
